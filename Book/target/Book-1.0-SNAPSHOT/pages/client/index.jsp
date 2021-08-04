@@ -16,8 +16,6 @@
 			//给加入购物车按钮绑定单击事件
 			$("button.addToCart").click(function () {
 				var bookId = $(this).attr("bookId");
-				// location.href = "http://localhost:8080/Book/cartServlet?action=addItem&id="+bookId;
-
 				//发Ajax请求，添加商品到购物车
 				$.getJSON("http://localhost:8080/Book/cartServlet","action=ajaxAddItem&id=" + bookId,function (data) {
 					// console.log(data)

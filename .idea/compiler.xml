@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GeneralBManagement" />
+        <module name="Book" />
+        <module name="EFManagement" />
+        <module name="TallyBook" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Book" target="1.8" />
+      <module name="EFManagement" target="1.8" />
+      <module name="GeneralBManagement" target="1.8" />
+      <module name="TallyBook" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GeneralBManagement" options="-parameters" />
+      <module name="TallyBook" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Book" />
+    <file type="web" url="file://$PROJECT_DIR$/EFManagement" />
+    <file type="web" url="file://$PROJECT_DIR$/GeneralBManagement" />
+    <file type="web" url="file://$PROJECT_DIR$/TallyBook" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Book/pom.xml" />
+        <option value="$PROJECT_DIR$/EFManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/GeneralBManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/TallyBook/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

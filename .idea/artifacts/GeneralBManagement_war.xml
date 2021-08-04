@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GeneralBManagement:war">
+    <output-path>$PROJECT_DIR$/GeneralBManagement/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GeneralBManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GeneralBManagement-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GeneralBManagement:war exploded" />
+    </root>
+  </artifact>
+</component>
